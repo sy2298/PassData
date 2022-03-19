@@ -10,8 +10,8 @@ import UIKit
 class DetailViewController: UIViewController {
 
     
-    var someString = ""
     @IBOutlet weak var DetailLabel: UILabel!
+    var someString = ""
     //클래스 메모리 처음 생성될 시점에는 nil
     //그 때 안에 접근하려고 하면 crash ex) text 접근하려고 할 때
     

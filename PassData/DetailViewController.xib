@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="PassData" customModuleProvider="target">
             <connections>
-                <outlet property="DetailLabel" destination="fRA-cQ-eYn" id="onB-zY-bpZ"/>
+                <outlet property="DetailLabel" destination="fRA-cQ-eYn" id="IDZ-C7-WOY"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,7 +20,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRA-cQ-eYn">
-                    <rect key="frame" x="44" y="113" width="44" height="21"/>
+                    <rect key="frame" x="44" y="113" width="44" height="42"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
@@ -37,7 +37,7 @@
             <fontDescription key="fontDescription" type="system" pointSize="17"/>
             <nil key="textColor"/>
             <nil key="highlightedColor"/>
-            <point key="canvasLocation" x="-291" y="-52"/>
+            <point key="canvasLocation" x="-291.304347826087" y="-52.566964285714285"/>
         </label>
     </objects>
     <resources>
