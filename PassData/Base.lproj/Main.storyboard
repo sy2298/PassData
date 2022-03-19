@@ -47,6 +47,14 @@
                                     <action selector="MoveToInstance:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cuh-t9-RV8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zgu-ZF-qHJ">
+                                <rect key="frame" x="19" y="366" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Delegate "/>
+                                <connections>
+                                    <action selector="MoveToDelegate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Fl-tD-5un"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
