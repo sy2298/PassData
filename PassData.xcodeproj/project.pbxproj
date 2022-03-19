@@ -16,6 +16,8 @@
 		1D62DE0527E4B73E00C88FC0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D62DE0327E4B73E00C88FC0 /* DetailViewController.swift */; };
 		1D62DE0627E4B73E00C88FC0 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D62DE0427E4B73E00C88FC0 /* DetailViewController.xib */; };
 		1D62DE0827E5B1DB00C88FC0 /* SegueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D62DE0727E5B1DB00C88FC0 /* SegueDetailViewController.swift */; };
+		1D62DE0D27E5BD2B00C88FC0 /* InstanceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D62DE0B27E5BD2B00C88FC0 /* InstanceDetailViewController.swift */; };
+		1D62DE0E27E5BD2B00C88FC0 /* InstanceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D62DE0C27E5BD2B00C88FC0 /* InstanceDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		1D62DE0327E4B73E00C88FC0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		1D62DE0427E4B73E00C88FC0 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		1D62DE0727E5B1DB00C88FC0 /* SegueDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueDetailViewController.swift; sourceTree = "<group>"; };
+		1D62DE0B27E5BD2B00C88FC0 /* InstanceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceDetailViewController.swift; sourceTree = "<group>"; };
+		1D62DE0C27E5BD2B00C88FC0 /* InstanceDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstanceDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				1D62DE0327E4B73E00C88FC0 /* DetailViewController.swift */,
 				1D62DE0427E4B73E00C88FC0 /* DetailViewController.xib */,
 				1D62DE0727E5B1DB00C88FC0 /* SegueDetailViewController.swift */,
+				1D62DE0B27E5BD2B00C88FC0 /* InstanceDetailViewController.swift */,
+				1D62DE0C27E5BD2B00C88FC0 /* InstanceDetailViewController.xib */,
 			);
 			path = PassData;
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 				1D62DDFA27E4B60A00C88FC0 /* LaunchScreen.storyboard in Resources */,
 				1D62DDF727E4B60A00C88FC0 /* Assets.xcassets in Resources */,
 				1D62DDF527E4B60100C88FC0 /* Main.storyboard in Resources */,
+				1D62DE0E27E5BD2B00C88FC0 /* InstanceDetailViewController.xib in Resources */,
 				1D62DE0627E4B73E00C88FC0 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +158,7 @@
 				1D62DDEE27E4B60100C88FC0 /* AppDelegate.swift in Sources */,
 				1D62DE0827E5B1DB00C88FC0 /* SegueDetailViewController.swift in Sources */,
 				1D62DDF027E4B60100C88FC0 /* SceneDelegate.swift in Sources */,
+				1D62DE0D27E5BD2B00C88FC0 /* InstanceDetailViewController.swift in Sources */,
 				1D62DE0527E4B73E00C88FC0 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
