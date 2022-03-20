@@ -7,6 +7,8 @@
 //  2. segue
 //  3. instance -> 데이터를 넘겨받을 때
 //  4. delegate(delegation) pattern 대리 위임
+//  5. closure 패턴
+//  6. Notification
 
 import UIKit
 
@@ -41,9 +43,36 @@ class ViewController: UIViewController {
         //위에서 전부 넘겨주는 것이 아니라 해당 프로토콜만 넘겨주는 것. 
         self.present(detailVC,animated: true, completion: nil)
     }
+    
+    @IBAction func MoveToClosure(_ sender: Any) {
+        let detailVC = ClosureDetailViewController(nibName: "ClosureDetailViewController", bundle: nil)
+        detailVC.myClosure = { str in
+            self.DataLabel.text = str
+        }
+        self.present(detailVC, animated: true, completion: nil)
+    }
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let notificationName = Notification.Name("sendSomeData")
+        //notification: 앱에서 기본적으로 감지하도록 만들어 놓는 것
+        NotificationCenter.default.addObserver(self, selector: #selector(showSomeString), name: notificationName, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardDidShow), name: UIResponder.keyboardDidShowNotification, object: nil)
         // Do any additional setup after loading the view.
+    }
+    @objc func keyboardDidShow() {
+        print("did show")
+    }
+    
+   @objc func showSomeString(notification: Notification) {
+        if let str = notification.userInfo?["str"] as? String {
+            self.DataLabel.text = str
+        }      //key,value
+    }
+    @IBAction func moveToNoti(_ sender: Any) {
+        let detailVC = NotiDetailViewController(nibName: "NotiDetailViewController", bundle: nil)
+        self.present(detailVC,animated: true,completion: nil)
     }
 }
 
